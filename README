@@ -1,0 +1,10 @@
+To use unix domain sockets in your own Racket Scheme project:
+
+	(require (planet shawnpresser/racket-unix-sockets:1:0))
+
+To test, run these commands in separate terminal windows:
+
+	racket -f tests/test-listening.rkt
+	racket -f tests/test-connecting.rkt
+
+(Use Ctrl-\ to quit.)

@@ -1,4 +1,4 @@
-(require "../socket.rkt")
+(require "../main.rkt")
 
 (define (serve path)
   (define listener (unix-socket-listen path 5))

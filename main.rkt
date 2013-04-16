@@ -33,7 +33,6 @@
                      (lambda (e) (_close s) (raise e))])
       (_make_fd_output_port s 'socket #f #f #t))))
 
-
 ;; unix-socket-listen : path number -> number
 ;; Creates a unix domain socket.  "maxpending" is the max number of
 ;;  pending connections allowed.
